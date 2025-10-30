@@ -2620,6 +2620,7 @@ input, select, textarea {
 		}
 
 		.image.fit {
+			height: 450px;
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
@@ -2630,6 +2631,21 @@ input, select, textarea {
 			}
 
 			.image.fit img {
+				width: 100%;
+			}
+
+		.image.fitpj {
+			height: 350px;
+			display: block;
+			margin: 2.5rem 0;
+			width: 100%;
+		}
+
+			.image.fitpj:first-child {
+				margin-top: 0;
+			}
+
+			.image.fitpj img {
 				width: 100%;
 			}
 
